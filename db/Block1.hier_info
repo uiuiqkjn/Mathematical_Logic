@@ -1,0 +1,106 @@
+|Block1
+led0 <= 74138:inst3.Y0N
+clk => DIV_50M_HZ:inst.CLK
+led1 <= 74138:inst3.Y1N
+led2 <= 74138:inst3.Y2N
+led3 <= 74138:inst3.Y3N
+led4 <= 74138:inst3.Y4N
+led5 <= 74138:inst3.Y5N
+led6 <= 74138:inst3.Y6N
+led7 <= 74138:inst3.Y7N
+out0 <= 7447:inst4.OA
+out2 <= 7447:inst4.OC
+out1 <= 7447:inst4.OB
+out3 <= 7447:inst4.OD
+out4 <= 7447:inst4.OE
+out5 <= 7447:inst4.OF
+out6 <= 7447:inst4.OG
+
+
+|Block1|74138:inst3
+Y7N <= 22.DB_MAX_OUTPUT_PORT_TYPE
+G1 => 8.IN0
+G2BN => 1.IN1
+G2AN => 1.IN2
+B => 10.IN0
+A => 9.IN0
+C => 11.IN0
+Y6N <= 21.DB_MAX_OUTPUT_PORT_TYPE
+Y5N <= 20.DB_MAX_OUTPUT_PORT_TYPE
+Y4N <= 19.DB_MAX_OUTPUT_PORT_TYPE
+Y3N <= 18.DB_MAX_OUTPUT_PORT_TYPE
+Y2N <= 17.DB_MAX_OUTPUT_PORT_TYPE
+Y1N <= 16.DB_MAX_OUTPUT_PORT_TYPE
+Y0N <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|74192:inst2
+BON <= 28.DB_MAX_OUTPUT_PORT_TYPE
+CLR => 44.IN0
+LDN => 43.IN0
+B => 53.IN2
+D => 55.IN2
+A => 52.IN2
+DN => 99.IN0
+UP => 98.IN0
+C => 54.IN2
+CON <= 77.DB_MAX_OUTPUT_PORT_TYPE
+QD <= 23.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 24.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 25.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 26.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|DIV_50M_HZ:inst
+CLK => temp[25].CLK
+CLK => temp[24].CLK
+CLK => temp[23].CLK
+CLK => temp[22].CLK
+CLK => temp[21].CLK
+CLK => temp[20].CLK
+CLK => temp[19].CLK
+CLK => temp[18].CLK
+CLK => temp[17].CLK
+CLK => temp[16].CLK
+CLK => temp[15].CLK
+CLK => temp[14].CLK
+CLK => temp[13].CLK
+CLK => temp[12].CLK
+CLK => temp[11].CLK
+CLK => temp[10].CLK
+CLK => temp[9].CLK
+CLK => temp[8].CLK
+CLK => temp[7].CLK
+CLK => temp[6].CLK
+CLK => temp[5].CLK
+CLK => temp[4].CLK
+CLK => temp[3].CLK
+CLK => temp[2].CLK
+CLK => temp[1].CLK
+CLK => temp[0].CLK
+CLK => OUT~reg0.CLK
+OUT <= OUT~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|7447:inst4
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+

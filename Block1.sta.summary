@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk'
+Slack : -2.560
+TNS   : -64.763
+
+Type  : Slow Model Setup 'DIV_50M_HZ:inst|OUT'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk'
+Slack : -3.448
+TNS   : -3.448
+
+Type  : Slow Model Hold 'DIV_50M_HZ:inst|OUT'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'DIV_50M_HZ:inst|OUT'
+Slack : -4.012
+TNS   : -12.555
+
+Type  : Slow Model Removal 'DIV_50M_HZ:inst|OUT'
+Slack : 3.276
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk'
+Slack : -0.637
+TNS   : -15.458
+
+Type  : Fast Model Setup 'DIV_50M_HZ:inst|OUT'
+Slack : 0.665
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.897
+TNS   : -1.897
+
+Type  : Fast Model Hold 'DIV_50M_HZ:inst|OUT'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'DIV_50M_HZ:inst|OUT'
+Slack : -1.641
+TNS   : -5.069
+
+Type  : Fast Model Removal 'DIV_50M_HZ:inst|OUT'
+Slack : 1.869
+TNS   : 0.000
+
+------------------------------------------------------------

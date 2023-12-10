@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 07 17:31:55 2023
+Quartus II Version : 7.2 Build 151 09/26/2007 SJ Full Version
+Revision Name : Block1
+Top-level Entity Name : Block1
+Family : Cyclone II
+Total logic elements : 55
+    Total combinational functions : 55
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 16
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
